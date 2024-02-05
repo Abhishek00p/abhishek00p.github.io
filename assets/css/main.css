@@ -2482,52 +2482,11 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		width: 200;
+		height:200;
 	}
 
-		.sabooimage img {
-			border-radius: 5px;
-			display: block;
-		}
-
-		.sabooimage.left, .sabooimage.right {
-			max-width: 40%;
-		}
-
-			.sabooimage.left img, .sabooimage.right img {
-				width: 100%;
-			}
-
-		.sabooimage.left {
-			float: left;
-			padding: 0 1.5em 1em 0;
-			top: 0.25em;
-		}
-
-		.sabooimage.right {
-			float: right;
-			padding: 0 0 1em 1.5em;
-			top: 0.25em;
-		}
-
-		.sabooimage.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
-		}
-
-			.sabooimage.fit img {
-				width: 100%;
-			}
-
-		.sabooimage.main {
-			display: block;
-			margin: 0 0 3em 0;
-			width: 100%;
-		}
-
-			.sabooimage.main img {
-				width: 100%;
-			}
+	
 
 /* List */
 
